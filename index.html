@@ -1,6 +1,6 @@
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,11 +18,11 @@
     ></script>
   </head>
   <body>
-    <div id="main" class="text-center">
+    <main id="main" class="text-center">
         <div id="title"><h1 class="display-1">Isaac Newton</h1></div>
         <div id="img-div">
-            <img src="img.jpg" />
-            <figcaption>Sir Issac Newton, a massive intellect</figcaption>
+            <img id="image" src="img.jpg" />
+            <div id="img-caption">Sir Issac Newton, a massive intellect</div>
         </div>
         <br>
         <div id="tribute-info">
@@ -70,14 +70,15 @@
           president of the Royal Society (1703–1727).
         </p>
       </div>
-      <div id="tribute-link">
+      <div>
         <a
-          rel="stylesheet"
-          href="https://en.wikipedia.org/wiki/Isaac_Newton"
-          target="_blank"
-          >More info ...</a
-        >
+            id="tribute-link"
+            rel="stylesheet"
+            href="https://en.wikipedia.org/wiki/Isaac_Newton"
+            target="_blank">
+            More info ...
+        </a>
       </div>
-    </div>
+    </main>
   </body>
 </html>
